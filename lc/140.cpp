@@ -3,7 +3,10 @@
 #include "bits/stdc++.h"
 
 using namespace std;
-
+// 记忆化搜索
+// dp一般适合 组合问题的 最优解 不太适合 枚举出所有情况
+// 判断true false 记忆化搜索也很快
+// 记忆话搜索不适合 求每个组合最优解  但是适合枚举出 所有组合
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string> &wordDict) {
